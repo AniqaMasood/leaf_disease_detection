@@ -1,0 +1,18 @@
+Generic single-database configuration.
+
+To initialize Alembic, run the following in your project root:
+alembic init migrations
+This will create a migrations/ directory with a versions/ subfolder and an alembic.ini configuration file.
+
+alembic stamp head
+
+
+Run the following command to generate a new migration script:
+alembic revision --autogenerate -m "create disease table"
+This will create a new script in the migrations/versions/ directory.
+
+Edit the Migration Script
+
+Apply the Migration
+Run the following command to apply the migration to your database:
+alembic upgrade head
