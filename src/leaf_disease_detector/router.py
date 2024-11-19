@@ -1,20 +1,42 @@
-from fastapi import APIRouter, HTTPException, Depends
+from fastapi import APIRouter, HTTPException, Depends, File, UploadFile
 from sqlalchemy.orm import Session
 from leaf_disease_detector.dependencies import get_disease_details
-from leaf_disease_detector.schemas import DiseasePredictionRequest, PredictionResponse
+from leaf_disease_detector.leaf_disease_detection import LeafDiseaseDetection
 from config.db import get_db_session
+import shutil
+from pathlib import Path
+
 router = APIRouter()
+UPLOAD_DIR = Path("./uploads")  # Directory to store uploaded files
+UPLOAD_DIR.mkdir(exist_ok=True)
 
-@router.post("/predict", response_model=PredictionResponse)
-def predict_disease(request: DiseasePredictionRequest, db: Session = Depends(get_db_session)):
+# Initialize the disease detection model
+detector = LeafDiseaseDetection()
+
+@router.post("/predict", response_model=dict)
+def predict_disease(file: UploadFile = File(...), db: Session = Depends(get_db_session)):
     """
-    Endpoint to fetch disease details based on the provided disease name.
+    Endpoint to predict disease from an uploaded image and fetch disease details.
     """
-    disease_name = request.disease_name  # The disease name sent in the request
-    # Fetch the disease details from the database
-    disease_info = get_disease_details(disease_name, db)
+    # Save the uploaded file
+    file_path = UPLOAD_DIR / file.filename
+    with file_path.open("wb") as buffer:
+        shutil.copyfileobj(file.file, buffer)
 
-    if not disease_info:
-        raise HTTPException(status_code=404, detail=f"Disease details not found for {disease_name}")
+    # Run the detection model
+    predicted_diseases = detector.predict(str(file_path))
+    
+    if not predicted_diseases:
+        raise HTTPException(status_code=404, detail="No disease detected from the image.")
 
-    return disease_info
+    disease_details = []
+    for disease_name in predicted_diseases:
+        # Fetch disease details from the database
+        disease_info = get_disease_details(disease_name, db)
+        if disease_info:
+            disease_details.append(disease_info)
+
+    if not disease_details:
+        raise HTTPException(status_code=404, detail="No matching disease details found.")
+
+    return {"detected_diseases": disease_details}
