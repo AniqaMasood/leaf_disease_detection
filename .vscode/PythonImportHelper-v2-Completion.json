@@ -1,0 +1,850 @@
+[
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "context",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "table",
+        "importPath": "sqlalchemy.sql",
+        "description": "sqlalchemy.sql",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.sql",
+        "documentation": {}
+    },
+    {
+        "label": "column",
+        "importPath": "sqlalchemy.sql",
+        "description": "sqlalchemy.sql",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.sql",
+        "documentation": {}
+    },
+    {
+        "label": "sqlalchemy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "engine_from_config",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "pool",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "fileConfig",
+        "importPath": "logging.config",
+        "description": "logging.config",
+        "isExtraImport": true,
+        "detail": "logging.config",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "src.models",
+        "description": "src.models",
+        "isExtraImport": true,
+        "detail": "src.models",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASE_URL",
+        "importPath": "src.config.db",
+        "description": "src.config.db",
+        "isExtraImport": true,
+        "detail": "src.config.db",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "Disease",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "DB_USER",
+        "importPath": "config.config",
+        "description": "config.config",
+        "isExtraImport": true,
+        "detail": "config.config",
+        "documentation": {}
+    },
+    {
+        "label": "DB_PASSWORD",
+        "importPath": "config.config",
+        "description": "config.config",
+        "isExtraImport": true,
+        "detail": "config.config",
+        "documentation": {}
+    },
+    {
+        "label": "DB_NAME",
+        "importPath": "config.config",
+        "description": "config.config",
+        "isExtraImport": true,
+        "detail": "config.config",
+        "documentation": {}
+    },
+    {
+        "label": "MODEL_PATH",
+        "importPath": "config.config",
+        "description": "config.config",
+        "isExtraImport": true,
+        "detail": "config.config",
+        "documentation": {}
+    },
+    {
+        "label": "IMAGE_PATH",
+        "importPath": "config.config",
+        "description": "config.config",
+        "isExtraImport": true,
+        "detail": "config.config",
+        "documentation": {}
+    },
+    {
+        "label": "TABLE_NAME",
+        "importPath": "config.config",
+        "description": "config.config",
+        "isExtraImport": true,
+        "detail": "config.config",
+        "documentation": {}
+    },
+    {
+        "label": "YOLO",
+        "importPath": "ultralytics",
+        "description": "ultralytics",
+        "isExtraImport": true,
+        "detail": "ultralytics",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "transforms",
+        "importPath": "torchvision",
+        "description": "torchvision",
+        "isExtraImport": true,
+        "detail": "torchvision",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "UploadFile",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "File",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "WebSocket",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "WebSocketDisconnect",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "WebSocket",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "WebSocketDisconnect",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "get_disease_details",
+        "importPath": "leaf_disease_detector.dependencies",
+        "description": "leaf_disease_detector.dependencies",
+        "isExtraImport": true,
+        "detail": "leaf_disease_detector.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "LeafDiseaseDetection",
+        "importPath": "leaf_disease_detector.leaf_disease_detection",
+        "description": "leaf_disease_detector.leaf_disease_detection",
+        "isExtraImport": true,
+        "detail": "leaf_disease_detector.leaf_disease_detection",
+        "documentation": {}
+    },
+    {
+        "label": "DiseasePredictionRequest",
+        "importPath": "leaf_disease_detector.schemas",
+        "description": "leaf_disease_detector.schemas",
+        "isExtraImport": true,
+        "detail": "leaf_disease_detector.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "PredictionResponse",
+        "importPath": "leaf_disease_detector.schemas",
+        "description": "leaf_disease_detector.schemas",
+        "isExtraImport": true,
+        "detail": "leaf_disease_detector.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "get_db_session",
+        "importPath": "config.db",
+        "description": "config.db",
+        "isExtraImport": true,
+        "detail": "config.db",
+        "documentation": {}
+    },
+    {
+        "label": "get_db_session",
+        "importPath": "config.db",
+        "description": "config.db",
+        "isExtraImport": true,
+        "detail": "config.db",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "uvicorn",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uvicorn",
+        "description": "uvicorn",
+        "detail": "uvicorn",
+        "documentation": {}
+    },
+    {
+        "label": "CORSMiddleware",
+        "importPath": "fastapi.middleware.cors",
+        "description": "fastapi.middleware.cors",
+        "isExtraImport": true,
+        "detail": "fastapi.middleware.cors",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "leaf_disease_detector.router import router  # Adjusted",
+        "description": "leaf_disease_detector.router import router  # Adjusted",
+        "isExtraImport": true,
+        "detail": "leaf_disease_detector.router import router  # Adjusted",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "path assuming manager is defined in __init__.py or another file in leaf_disease_detector",
+        "importPath": "sockets import manager  # Adjusted",
+        "description": "sockets import manager  # Adjusted",
+        "isExtraImport": true,
+        "detail": "sockets import manager  # Adjusted",
+        "documentation": {}
+    },
+    {
+        "label": "asyncio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "asyncio",
+        "description": "asyncio",
+        "detail": "asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "declarative_base",
+        "importPath": "sqlalchemy.ext.declarative",
+        "description": "sqlalchemy.ext.declarative",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.declarative",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.acbf82665ce2_add_disease_records_with_symptoms_",
+        "description": "migrations.versions.acbf82665ce2_add_disease_records_with_symptoms_",
+        "peekOfCode": "def upgrade():\n    # Insert data for each disease\n    op.bulk_insert(disease_table, DISEASE_DATA)\ndef downgrade():\n    # Delete the inserted data based on DiseaseIDs\n    op.execute(\"DELETE FROM Disease WHERE DiseaseID BETWEEN 0 AND 28\")",
+        "detail": "migrations.versions.acbf82665ce2_add_disease_records_with_symptoms_",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.acbf82665ce2_add_disease_records_with_symptoms_",
+        "description": "migrations.versions.acbf82665ce2_add_disease_records_with_symptoms_",
+        "peekOfCode": "def downgrade():\n    # Delete the inserted data based on DiseaseIDs\n    op.execute(\"DELETE FROM Disease WHERE DiseaseID BETWEEN 0 AND 28\")",
+        "detail": "migrations.versions.acbf82665ce2_add_disease_records_with_symptoms_",
+        "documentation": {}
+    },
+    {
+        "label": "disease_table",
+        "kind": 5,
+        "importPath": "migrations.versions.acbf82665ce2_add_disease_records_with_symptoms_",
+        "description": "migrations.versions.acbf82665ce2_add_disease_records_with_symptoms_",
+        "peekOfCode": "disease_table = table(\n    'disease',\n    column('DiseaseID', Integer),\n    column('DiseaseName', String),\n    column('Symptoms', String),\n    column('Prevention', String),\n    column('Treatment', String)\n)\n# Disease data\nDISEASE_DATA = [",
+        "detail": "migrations.versions.acbf82665ce2_add_disease_records_with_symptoms_",
+        "documentation": {}
+    },
+    {
+        "label": "DISEASE_DATA",
+        "kind": 5,
+        "importPath": "migrations.versions.acbf82665ce2_add_disease_records_with_symptoms_",
+        "description": "migrations.versions.acbf82665ce2_add_disease_records_with_symptoms_",
+        "peekOfCode": "DISEASE_DATA = [\n    {\n        \"DiseaseID\": 0,\n        \"DiseaseName\": \"Apple Scab Leaf\",\n        \"Symptoms\": \"Dark, olive-green spots on leaves; curling of leaves.\",\n        \"Prevention\": \"Apply fungicide sprays; prune trees for better air circulation.\",\n        \"Treatment\": \"Use sulfur or captan fungicides; remove infected leaves.\"\n    },\n    {\n        \"DiseaseID\": 1,",
+        "detail": "migrations.versions.acbf82665ce2_add_disease_records_with_symptoms_",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.b32d7749b838_add_disease_table",
+        "description": "migrations.versions.b32d7749b838_add_disease_table",
+        "peekOfCode": "def upgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('disease',\n    sa.Column('DiseaseID', sa.Integer(), nullable=False),\n    sa.Column('DiseaseName', sa.String(), nullable=True),\n    sa.Column('Symptoms', sa.String(), nullable=True),\n    sa.Column('Prevention', sa.String(), nullable=True),\n    sa.Column('Treatment', sa.String(), nullable=True),\n    sa.PrimaryKeyConstraint('DiseaseID')\n    )",
+        "detail": "migrations.versions.b32d7749b838_add_disease_table",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.b32d7749b838_add_disease_table",
+        "description": "migrations.versions.b32d7749b838_add_disease_table",
+        "peekOfCode": "def downgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_index(op.f('ix_disease_DiseaseName'), table_name='disease')\n    op.drop_index(op.f('ix_disease_DiseaseID'), table_name='disease')\n    op.drop_table('disease')\n    # ### end Alembic commands ###",
+        "detail": "migrations.versions.b32d7749b838_add_disease_table",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_offline",
+        "kind": 2,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "def run_migrations_offline() -> None:\n    \"\"\"Run migrations in 'offline' mode.\"\"\"\n    url = config.get_main_option(\"sqlalchemy.url\") or DATABASE_URL  # Use DATABASE_URL from db.py if not in config\n    context.configure(\n        url=url,\n        target_metadata=target_metadata,\n        literal_binds=True,\n        dialect_opts={\"paramstyle\": \"named\"},\n    )\n    with context.begin_transaction():",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_online",
+        "kind": 2,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "def run_migrations_online() -> None:\n    \"\"\"Run migrations in 'online' mode.\"\"\"\n    connectable = engine_from_config(\n        config.get_section(config.config_ini_section, {}),\n        prefix=\"sqlalchemy.\",\n        poolclass=pool.NullPool,\n    )\n    with connectable.connect() as connection:\n        context.configure(\n            connection=connection, target_metadata=target_metadata",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "kind": 5,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "config = context.config\n# Interpret the config file for Python logging.\n# This line sets up loggers basically.\nif config.config_file_name is not None:\n    fileConfig(config.config_file_name)\n# Add your model's MetaData object here for 'autogenerate' support.\n# Base.metadata is the metadata object that contains information about your models.\ntarget_metadata = Base.metadata\n# Run migrations in 'offline' mode.\ndef run_migrations_offline() -> None:",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "target_metadata",
+        "kind": 5,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "target_metadata = Base.metadata\n# Run migrations in 'offline' mode.\ndef run_migrations_offline() -> None:\n    \"\"\"Run migrations in 'offline' mode.\"\"\"\n    url = config.get_main_option(\"sqlalchemy.url\") or DATABASE_URL  # Use DATABASE_URL from db.py if not in config\n    context.configure(\n        url=url,\n        target_metadata=target_metadata,\n        literal_binds=True,\n        dialect_opts={\"paramstyle\": \"named\"},",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "DISEASE_CLASSES",
+        "kind": 5,
+        "importPath": "src.config.config",
+        "description": "src.config.config",
+        "peekOfCode": "DISEASE_CLASSES = {\n    \"Apple Scab Leaf\": 0,\n    \"Apple leaf\": 1,\n    \"Apple rust leaf\": 2,\n    \"Bell_pepper leaf\": 3,\n    \"Bell_pepper leaf spot\": 4,\n    \"Blueberry leaf\": 5,\n    \"Cherry leaf\": 6,\n    \"Corn Gray leaf spot\": 7,\n    \"Corn leaf blight\": 8,",
+        "detail": "src.config.config",
+        "documentation": {}
+    },
+    {
+        "label": "MODEL_PATH",
+        "kind": 5,
+        "importPath": "src.config.config",
+        "description": "src.config.config",
+        "peekOfCode": "MODEL_PATH = os.getenv('MODEL_PATH')\nDB_USER = os.getenv('DB_USER')\nDB_PASSWORD = os.getenv('DB_PASSWORD')\nDB_NAME = os.getenv('DB_NAME')\nTABLE_NAME = os.getenv('TABLE_NAME')\nIMAGE_PATH = os.getenv('IMAGE_PATH')",
+        "detail": "src.config.config",
+        "documentation": {}
+    },
+    {
+        "label": "DB_USER",
+        "kind": 5,
+        "importPath": "src.config.config",
+        "description": "src.config.config",
+        "peekOfCode": "DB_USER = os.getenv('DB_USER')\nDB_PASSWORD = os.getenv('DB_PASSWORD')\nDB_NAME = os.getenv('DB_NAME')\nTABLE_NAME = os.getenv('TABLE_NAME')\nIMAGE_PATH = os.getenv('IMAGE_PATH')",
+        "detail": "src.config.config",
+        "documentation": {}
+    },
+    {
+        "label": "DB_PASSWORD",
+        "kind": 5,
+        "importPath": "src.config.config",
+        "description": "src.config.config",
+        "peekOfCode": "DB_PASSWORD = os.getenv('DB_PASSWORD')\nDB_NAME = os.getenv('DB_NAME')\nTABLE_NAME = os.getenv('TABLE_NAME')\nIMAGE_PATH = os.getenv('IMAGE_PATH')",
+        "detail": "src.config.config",
+        "documentation": {}
+    },
+    {
+        "label": "DB_NAME",
+        "kind": 5,
+        "importPath": "src.config.config",
+        "description": "src.config.config",
+        "peekOfCode": "DB_NAME = os.getenv('DB_NAME')\nTABLE_NAME = os.getenv('TABLE_NAME')\nIMAGE_PATH = os.getenv('IMAGE_PATH')",
+        "detail": "src.config.config",
+        "documentation": {}
+    },
+    {
+        "label": "TABLE_NAME",
+        "kind": 5,
+        "importPath": "src.config.config",
+        "description": "src.config.config",
+        "peekOfCode": "TABLE_NAME = os.getenv('TABLE_NAME')\nIMAGE_PATH = os.getenv('IMAGE_PATH')",
+        "detail": "src.config.config",
+        "documentation": {}
+    },
+    {
+        "label": "IMAGE_PATH",
+        "kind": 5,
+        "importPath": "src.config.config",
+        "description": "src.config.config",
+        "peekOfCode": "IMAGE_PATH = os.getenv('IMAGE_PATH')",
+        "detail": "src.config.config",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "kind": 2,
+        "importPath": "src.config.db",
+        "description": "src.config.db",
+        "peekOfCode": "def get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()\ndef get_db_session():\n    \"\"\" Get a new database session. \"\"\"\n    session = SessionLocal()\n    return session",
+        "detail": "src.config.db",
+        "documentation": {}
+    },
+    {
+        "label": "get_db_session",
+        "kind": 2,
+        "importPath": "src.config.db",
+        "description": "src.config.db",
+        "peekOfCode": "def get_db_session():\n    \"\"\" Get a new database session. \"\"\"\n    session = SessionLocal()\n    return session\n# Function to create tables (with transaction handling)\ndef init_db():\n    with engine.begin() as conn:\n        conn.run_sync(Base.metadata.create_all)",
+        "detail": "src.config.db",
+        "documentation": {}
+    },
+    {
+        "label": "init_db",
+        "kind": 2,
+        "importPath": "src.config.db",
+        "description": "src.config.db",
+        "peekOfCode": "def init_db():\n    with engine.begin() as conn:\n        conn.run_sync(Base.metadata.create_all)",
+        "detail": "src.config.db",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASE_URL",
+        "kind": 5,
+        "importPath": "src.config.db",
+        "description": "src.config.db",
+        "peekOfCode": "DATABASE_URL = (\n    f'postgresql://{DB_USER}:{DB_PASSWORD}@localhost:5432/{DB_NAME}'\n)\n# Create the SQLAlchemy engine (synchronous)\nengine = create_engine(DATABASE_URL)\n# Create a session local to interact with the database\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\n# Dependency to get the database session\ndef get_db():\n    db = SessionLocal()",
+        "detail": "src.config.db",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "kind": 5,
+        "importPath": "src.config.db",
+        "description": "src.config.db",
+        "peekOfCode": "engine = create_engine(DATABASE_URL)\n# Create a session local to interact with the database\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\n# Dependency to get the database session\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "src.config.db",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLocal",
+        "kind": 5,
+        "importPath": "src.config.db",
+        "description": "src.config.db",
+        "peekOfCode": "SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\n# Dependency to get the database session\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()\ndef get_db_session():\n    \"\"\" Get a new database session. \"\"\"",
+        "detail": "src.config.db",
+        "documentation": {}
+    },
+    {
+        "label": "get_disease_details",
+        "kind": 2,
+        "importPath": "src.leaf_disease_detector.dependencies",
+        "description": "src.leaf_disease_detector.dependencies",
+        "peekOfCode": "def get_disease_details(disease_name: list, db: Session):\n    \"\"\"\n    Fetch the disease details from the database based on the disease name.\n    \"\"\"\n    diseases = db.query(Disease).filter(Disease.DiseaseName.in_(disease_name)).all()\n    if not diseases:\n        return None  # Diseases not found in the database\n    # Return the disease details, such as symptoms, treatment, etc.\n    return [\n        {",
+        "detail": "src.leaf_disease_detector.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "LeafDiseaseDetection",
+        "kind": 6,
+        "importPath": "src.leaf_disease_detector.leaf_disease_detection",
+        "description": "src.leaf_disease_detector.leaf_disease_detection",
+        "peekOfCode": "class LeafDiseaseDetection:\n    def __init__(self):\n        self.model = YOLO(MODEL_PATH)\n        self.model.conf = 0.90  # Set confidence threshold\n    def preprocess_image(self, image_path: str):\n        \"\"\"\n        Preprocess the input image before passing it to the model.\n        \"\"\"\n        transform = transforms.Compose([\n            transforms.Resize((224, 224)),  # Resize to the model's expected input size",
+        "detail": "src.leaf_disease_detector.leaf_disease_detection",
+        "documentation": {}
+    },
+    {
+        "label": "predict_disease",
+        "kind": 2,
+        "importPath": "src.leaf_disease_detector.router",
+        "description": "src.leaf_disease_detector.router",
+        "peekOfCode": "def predict_disease(request: DiseasePredictionRequest, db: Session = Depends(get_db_session)):\n    \"\"\"\n    Endpoint to fetch disease details based on the provided disease name.\n    \"\"\"\n    disease_name = request.disease_name  # The disease name sent in the request\n    # Fetch the disease details from the database\n    disease_info = get_disease_details(disease_name, db)\n    if not disease_info:\n        raise HTTPException(status_code=404, detail=f\"Disease details not found for {disease_name}\")\n    return disease_info",
+        "detail": "src.leaf_disease_detector.router",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "src.leaf_disease_detector.router",
+        "description": "src.leaf_disease_detector.router",
+        "peekOfCode": "router = APIRouter()\n@router.post(\"/predict\", response_model=PredictionResponse)\ndef predict_disease(request: DiseasePredictionRequest, db: Session = Depends(get_db_session)):\n    \"\"\"\n    Endpoint to fetch disease details based on the provided disease name.\n    \"\"\"\n    disease_name = request.disease_name  # The disease name sent in the request\n    # Fetch the disease details from the database\n    disease_info = get_disease_details(disease_name, db)\n    if not disease_info:",
+        "detail": "src.leaf_disease_detector.router",
+        "documentation": {}
+    },
+    {
+        "label": "DiseasePredictionRequest",
+        "kind": 6,
+        "importPath": "src.leaf_disease_detector.schemas",
+        "description": "src.leaf_disease_detector.schemas",
+        "peekOfCode": "class DiseasePredictionRequest(BaseModel):\n    disease_name: str  # The disease name provided by the user in the request\n# Response model for the disease details\nclass DiseaseDetails(BaseModel):\n    disease_name: str\n    symptoms: str\n    prevention: str\n    treatment: str\nclass PredictionResponse(BaseModel):\n    diseases: List[DiseaseDetails]",
+        "detail": "src.leaf_disease_detector.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "DiseaseDetails",
+        "kind": 6,
+        "importPath": "src.leaf_disease_detector.schemas",
+        "description": "src.leaf_disease_detector.schemas",
+        "peekOfCode": "class DiseaseDetails(BaseModel):\n    disease_name: str\n    symptoms: str\n    prevention: str\n    treatment: str\nclass PredictionResponse(BaseModel):\n    diseases: List[DiseaseDetails]\n    class Config:\n        orm_mode = True  # Tells Pydantic to treat ORM models as dictionaries for easy serialization",
+        "detail": "src.leaf_disease_detector.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "PredictionResponse",
+        "kind": 6,
+        "importPath": "src.leaf_disease_detector.schemas",
+        "description": "src.leaf_disease_detector.schemas",
+        "peekOfCode": "class PredictionResponse(BaseModel):\n    diseases: List[DiseaseDetails]\n    class Config:\n        orm_mode = True  # Tells Pydantic to treat ORM models as dictionaries for easy serialization",
+        "detail": "src.leaf_disease_detector.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "src.main",
+        "description": "src.main",
+        "peekOfCode": "app = FastAPI()\n# Define CORS origins\norigins = [\"*\"]  # Modify this as needed\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=origins,\n    allow_credentials=True,\n    allow_methods=[\"*\"],\n    allow_headers=[\"*\"],\n)",
+        "detail": "src.main",
+        "documentation": {}
+    },
+    {
+        "label": "origins",
+        "kind": 5,
+        "importPath": "src.main",
+        "description": "src.main",
+        "peekOfCode": "origins = [\"*\"]  # Modify this as needed\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=origins,\n    allow_credentials=True,\n    allow_methods=[\"*\"],\n    allow_headers=[\"*\"],\n)\n# Include the router\napp.include_router(router)",
+        "detail": "src.main",
+        "documentation": {}
+    },
+    {
+        "label": "Disease",
+        "kind": 6,
+        "importPath": "src.models",
+        "description": "src.models",
+        "peekOfCode": "class Disease(Base):\n    __tablename__ = TABLE_NAME  # Name of the table in the database\n    DiseaseID = Column(Integer, primary_key=True, index=True)\n    DiseaseName = Column(String, index=True)\n    Symptoms = Column(String)\n    Prevention = Column(String)\n    Treatment = Column(String)",
+        "detail": "src.models",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 5,
+        "importPath": "src.models",
+        "description": "src.models",
+        "peekOfCode": "Base = declarative_base()\n# Disease model definition (table)\nclass Disease(Base):\n    __tablename__ = TABLE_NAME  # Name of the table in the database\n    DiseaseID = Column(Integer, primary_key=True, index=True)\n    DiseaseName = Column(String, index=True)\n    Symptoms = Column(String)\n    Prevention = Column(String)\n    Treatment = Column(String)",
+        "detail": "src.models",
+        "documentation": {}
+    },
+    {
+        "label": "ConnectionManager",
+        "kind": 6,
+        "importPath": "src.sockets",
+        "description": "src.sockets",
+        "peekOfCode": "class ConnectionManager:\n    def __init__(self):\n        self.active_connections: List[WebSocket] = []\n    async def connect(self, websocket: WebSocket):\n        await websocket.accept()\n        self.active_connections.append(websocket)\n    def disconnect(self, websocket: WebSocket):\n        self.active_connections.remove(websocket)\n    async def broadcast(self, message: str):\n        for connection in self.active_connections:",
+        "detail": "src.sockets",
+        "documentation": {}
+    },
+    {
+        "label": "manager",
+        "kind": 5,
+        "importPath": "src.sockets",
+        "description": "src.sockets",
+        "peekOfCode": "manager = ConnectionManager()",
+        "detail": "src.sockets",
+        "documentation": {}
+    }
+]
